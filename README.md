@@ -12,23 +12,24 @@ Features include:
 - Detailed view for each book
 - 
 
-⚡ Installation
+# ⚡Installation
 
 Clone the repository:
 
 git clone https://github.com/Delyaday/books-catalog.git
+
 cd books-catalog
 
 
-Install dependencies:
+# Install dependencies:
 
 npm install
 
-🚀 Running the App
+# 🚀 Running the App
 
 Start the development server:
 
 ng serve
 
 
-Open your browser at http://localhost:4200
+# Open your browser at http://localhost:4200
