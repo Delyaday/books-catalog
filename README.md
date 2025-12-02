@@ -10,7 +10,7 @@ Features include:
 - Add Book via a modal dialog
 
 - Detailed view for each book
-- 
+  
 
 # ⚡Installation
 
