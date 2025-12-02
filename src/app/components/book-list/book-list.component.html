@@ -1,0 +1,36 @@
+<h1 class="title">Books Catalog</h1>
+
+<div class="search-bar">
+  <input
+    type="text"
+    placeholder="Search by title or author..."
+    [value]="searchString()"
+    (input)="changeSearchString($event)"
+  />
+</div>
+
+<div class="actions">
+  <button mat-raised-button color="primary" (click)="openAddDialog()">Add Book</button>
+</div>
+
+<div class="book-list">
+  @for (book of filteredBooks(); track book.title) {
+
+  <mat-card style="width: 200px">
+    <mat-card-header>
+      <mat-card-title>{{ book.title }}</mat-card-title>
+      <mat-card-subtitle>{{ book.author }}</mat-card-subtitle>
+    </mat-card-header>
+    <img mat-card-image [src]="book.cover" alt="{{ book.title }}" />
+    <mat-card-content>
+      <p>{{ book.description }}</p>
+    </mat-card-content>
+    <mat-card-actions>
+      <button mat-button [routerLink]="['/books', book.id]">View Details</button>
+    </mat-card-actions>
+  </mat-card>
+
+  } @empty {
+  <div>There are no books.</div>
+  }
+</div>

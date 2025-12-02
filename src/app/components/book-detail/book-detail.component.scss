@@ -1,0 +1,44 @@
+.book-detail-card {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+  mat-card-header {
+    text-align: center;
+
+    mat-card-title {
+      font-size: 1.8rem;
+      font-weight: 600;
+    }
+
+    mat-card-subtitle {
+      font-size: 1rem;
+      color: rgb(224, 221, 221);
+    }
+  }
+
+  .book-cover {
+    max-height: 400px;
+    object-fit: contain;
+    margin: 0 auto;
+  }
+
+  mat-card-content {
+    h4 {
+      margin-bottom: 8px;
+      font-weight: 500;
+    }
+
+    p {
+      line-height: 1.5;
+    }
+  }
+
+  mat-card-actions {
+    display: flex;
+    justify-content: center;
+  }
+}

@@ -1,0 +1,25 @@
+<ng-container *ngIf="book() as b; else noBook">
+  <mat-card class="book-detail-card">
+    <mat-card-header>
+      <mat-card-title>{{ b.title }}</mat-card-title>
+      <mat-card-subtitle>{{ b.author }} • {{ b.year }}</mat-card-subtitle>
+    </mat-card-header>
+
+    <img mat-card-image [src]="b.cover" alt="{{ b.title }}" class="book-cover" />
+
+    <mat-card-content>
+      <h4>Description</h4>
+      <p>{{ b.description }}</p>
+    </mat-card-content>
+
+    <mat-card-actions>
+      <button mat-raised-button color="primary" routerLink="/">
+        Back to List
+      </button>
+    </mat-card-actions>
+  </mat-card>
+</ng-container>
+
+<ng-template #noBook>
+  <p>Book not found.</p>
+</ng-template>

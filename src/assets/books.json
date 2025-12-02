@@ -1,0 +1,98 @@
+[
+    {
+        "id": "1",
+        "title": "The Little Prince",
+        "author": "Antoine de Saint-Exupéry",
+        "year": 1943,
+        "description": "A poetic tale about a pilot and a little prince.",
+        "cover": "assets/book.png"
+    },
+    {
+        "id": "2",
+        "title": "1984",
+        "author": "George Orwell",
+        "year": 1949,
+        "description": "Dystopian novel about totalitarianism.",
+        "cover": "assets/book.png"
+    },
+    {
+        "id": "3",
+        "title": "Pride and Prejudice",
+        "author": "Jane Austen",
+        "year": 1813,
+        "description": "Classic romance and social commentary.",
+        "cover": "assets/book.png"
+    },
+    {
+        "id": "4",
+        "title": "Moby Dick",
+        "author": "Herman Melville",
+        "year": 1851,
+        "description": "A seafaring tale about obsession.",
+        "cover": "assets/book.png"
+    },
+    {
+        "id": "5",
+        "title": "Brave New World",
+        "author": "Aldous Huxley",
+        "year": 1932,
+        "description": "Dystopian novel exploring technology and control.",
+        "cover": "assets/book.png"
+    },
+    {
+        "id": "6",
+        "title": "The Catcher in the Rye",
+        "author": "J. D. Salinger",
+        "year": 1951,
+        "description": "Coming-of-age novel.",
+        "cover": "assets/book.png"
+    },
+    {
+        "id": "7",
+        "title": "To Kill a Mockingbird",
+        "author": "Harper Lee",
+        "year": 1960,
+        "description": "Novel about race and justice in the Deep South.",
+        "cover": "assets/book.png"
+    },
+    {
+        "id": "8",
+        "title": "The Hobbit",
+        "author": "J. R. R. Tolkien",
+        "year": 1937,
+        "description": "Fantasy adventure preceding The Lord of the Rings.",
+        "cover": "assets/book.png"
+    },
+    {
+        "id": "9",
+        "title": "Fahrenheit 451",
+        "author": "Ray Bradbury",
+        "year": 1953,
+        "description": "Story about book burning and censorship.",
+        "cover": "assets/book.png"
+    },
+    {
+        "id": "10",
+        "title": "Crime and Punishment",
+        "author": "Fyodor Dostoevsky",
+        "year": 1866,
+        "description": "Psychological novel about guilt and redemption.",
+        "cover": "assets/book.png"
+    },
+    {
+        "id": "11",
+        "title": "Anna Karenina",
+        "author": "Leo Tolstoy",
+        "year": 1877,
+        "description": "A complex novel about love, family and society.",
+        "cover": "assets/book.png"
+    },
+    {
+        "id": "12",
+        "title": "The Alchemist",
+        "author": "Paulo Coelho",
+        "year": 1988,
+        "description": "A fable about following your dream.",
+        "cover": "assets/book.png"
+    }
+]
